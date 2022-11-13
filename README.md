@@ -27,7 +27,7 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zim-bot/zimbot-v4)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fabinhojcr/zimbot-v4)
 
 ## BUILD PACKS
 
@@ -46,7 +46,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 ## >  THIS BOT IT USE MULTI DEVICE BAILEYS
 
-## > CHANGE LINK IN LIB FOLDER 📁📂 CHANGE HERE [`DOCKERFILE`](https://github.com/zim-bot/zimbot-v4/edit/main/lib/Dockerfile)
+## > CHANGE LINK IN LIB FOLDER 📁📂 CHANGE HERE [`DOCKERFILE`](https://github.com/fabinhojcr/zimbot-v4/edit/main/lib/Dockerfile)
 
 ``` 
 apt install nodejs
@@ -55,7 +55,7 @@ apt install git
 
 apt update && apt upgrade
 
-git clone https://github.com/zim-bot/zimbot-v4
+git clone https://github.com/fabinhojcr/zimbot-v4
  
 cd zimbot-v4
 
