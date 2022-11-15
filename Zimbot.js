@@ -188,10 +188,10 @@ participant : '0@s.whatsapp.net'
     isForwarded: false, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
  // Bagian ini sesuka kalian berkreasi :'v
 showAdAttribution: true,
-title: "ZIM BOT V4",
+title: "Fαbiи ZIM BOT V4",
 body: "GIVE IT A STAR",
 mediaType: "VIDEO",
-mediaUrl: `https://githb.com/zim-bot/zimbot-v4`,
+mediaUrl: `https://githb.com/fabinhojcr/zimbot-v4`,
 description: 'DRIPS OFC',
 previewType: "PHOTO",
 thumbnail: fs.readFileSync('./drips.jpg'),
@@ -209,7 +209,7 @@ participant : '0@s.whatsapp.net'
   message: {
   documentMessage: {
 showAdAttribution: true,
-  title: "ZIM BOT V4", 
+  title: "Fαbiи ZIM BOT v4", 
   jpegThumbnail: fs.readFileSync('./drips.jpg')
 }
 }
@@ -225,7 +225,7 @@ showAdAttribution: true,
     message: { 
        "extendedTextMessage": {
                 "text":'SUB DRIPS OFC',
-                "title": 'ZIM BOT-V4',
+                "title": 'Fαbiи ZIM BOT-V4',
                 'jpegThumbnail': fs.readFileSync('./drips.jpg')
              }
            } 
@@ -252,7 +252,7 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
    if (chats) {
   if (!('mute' in chats)) chats.mute = false
   if (!('chatbot' in chats)) chats.chatbot = false
-  if (!('antilink' in chats)) chats.antilink = false
+  if (!('antilink' in chats)) chats.antilink = true
   if (!('antilinkyt' in chats)) chats.antilinkyt = false
   if (!('autoblock' in chats)) chats.autoblock = false
   if (!('isWelcome' in chats)) chats.isWelcome = false
@@ -274,7 +274,7 @@ let picak = picaks[Math.floor(Math.random() * picaks.length)]
    mute: false,
    chatbot: false,
    wame: false,
-   antilink: false,
+   antilink: true,
    antilinkyt: false,
    isWelcome: false,
    antilinkall: false,
