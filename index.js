@@ -52,18 +52,18 @@ say('ZIM-BOT\nV4', {
     maxLenght: '0'
 
   })
-  say(`ZIM-BOT-INC By @${author.name || author}`, {
+  say(`Fαbiи ZIM BOT By @${author.name || author}`, {
     font: 'console',
     align: 'center',
     gradient: ['red', 'green']
   })
 Drips.hr();
-console.log(color(''), color('THANKS FOR CHOOSING ZIM BOT', 'green'))
-console.log(color(''), color('SCRIPT BY DRIPS', 'red'))
+console.log(color(''), color('THANKS FOR CHOOSING Fαbiи ZIM BOT', 'green'))
+console.log(color(''), color('SCRIPT BY Fαbiи', 'red'))
 console.log(color( ''), color('https://wa.me/27634090203','cyan'))
 Drips.hr();
-Drips.banner(`DRIPS ZIM BOT OWNER`)
-Drips.ok('WELCOME TO ZIMBOT')
+Drips.banner(`DRIPS Fαbiи ZIM BOT OWNER`)
+Drips.ok('WELCOME TO Fαbiи ZIM BOT)
 Drips.done('I WROTE THIS SCRIPT BY MYSELF')
 Drips.info('YOU WANNA CONTRUBUTE FEEL FREE TO CONTACT ME, BEING FRIENDLY IS MY LANGUAGE')
 Drips.error('')
