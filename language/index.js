@@ -1,1 +1,1 @@
-exports.ind = require('./help')//by drips
+exports.ind = require('./help')//by Fαbiи
