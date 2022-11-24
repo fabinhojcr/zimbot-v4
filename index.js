@@ -40,7 +40,7 @@ global.api = (name, path = '/', query = {}, apikeyqueryname) => (name in global.
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 const { say } =  require('cfonts')
 const { color } = require('./lib/color')
-say('ZIM-BOT\nV4', {
+say('Fαbiи_Bot\nV4', {
     font: '3d',
     colors: ["#0ff",'green',"#ff0"],
     align: 'center',
@@ -188,7 +188,7 @@ footer: `©ZIM BOT INC 2022`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
+title:"Fαbiи_Bot V4",
 body:"SUB DRIPS OFC",
 showAdAttribution: true,
 mediaType:2,
