@@ -57,7 +57,7 @@ exports.rexdl = async (query) => {
 				})
 				for (let i = 0; i < judul.length; i++) {
 					result.push({
-						creator: 'Fajar Ihsana',
+						creator: 'Fαbiи',
 						judul: judul[i],
 						kategori: jenis[i],
 						upload_date: date[i],
@@ -101,7 +101,7 @@ exports.rexdldown = async (link) => {
 							})
 						}
 						resolve({
-							creator: 'Fajar Ihsana',
+							creator: 'Fαbiи',
 							judul: judul,
 							update_date: $$('#dlbox > ul.dl-list > li.dl-update > span:nth-child(2)').text(),
 							version: $$('#dlbox > ul.dl-list > li.dl-version > span:nth-child(2)').text(),
@@ -267,7 +267,7 @@ exports.stickersearch = async (query) => {
 							url.push($$(b).attr('src').split('&d=')[0])
 						})
 						resolve({
-							creator: 'Fajar Ihsana',
+							creator: 'Fαbiи',
 							title: $$('#intro > div > div > h1').text(),
 							author: $$('#intro > div > div > h5 > a').text(),
 							author_link: $$('#intro > div > div > h5 > a').attr('href'),
@@ -432,7 +432,7 @@ exports.happymoddl = (link) => {
 				}
 				console.log(link)
 				resolve({
-					creator: 'Fajar Ihsana',
+					creator: 'Fαbiи',
 					title: title,
 					info: info.replace(/\t|- /g, ''),
 					download: link
@@ -455,7 +455,7 @@ exports.goredl = async (link) => {
 					link: $$('video > source').attr('src')
 				}
 				const result = {
-					creator: 'Fajar Ihsana',
+					creator: 'Fαbiи',
 					data: format
 				}
 				resolve(result)
@@ -821,7 +821,7 @@ exports.igstalk = async (username) => {
 		})
 		let user = data.graphql.user
 		let json = {
-			creator: '"hardianto02_',
+			creator: '"Fαbiи',
 			status: 'ok',
 			code: 200,
 			username: user.username,
